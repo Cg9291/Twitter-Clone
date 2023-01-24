@@ -1,7 +1,7 @@
 export default function TrendingSection(){
     return (
       <section id="trending-section">
-        <div class="cards-header">What's happening</div>
+        <div class="cards-header">What's happening?</div>
         <div class="cards">NEWS #1</div>
         <div class="cards">NEWS #2</div>
         <div class="cards">NEWS #3</div>
