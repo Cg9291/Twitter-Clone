@@ -33,19 +33,3 @@ function App() {
 export default App;
 
 //THIS STARTS THE CHILDREN FUNCTIONS TO THE APP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
