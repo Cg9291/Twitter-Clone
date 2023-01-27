@@ -15,8 +15,8 @@ li {
   height: 100vh;
   width: 100%;
   max-width: 100%;
-  overflow-x: visible;
-  overflow-y:visible;
+ //overflow-x: scroll;
+  overflow-y:scroll;
   background-color: white;
   align-items: center;
   font-size: calc(10px + 2vmin);
@@ -34,9 +34,9 @@ li {
     align-items: flex-end;
 
     //border-right: px solid rgba(220, 220, 220, 0.3);
-    //min-width: 100%;
-    max-width: 552px;
-    flex:1 1 0; //544/1819
+    //min-width: 30.306%;
+    //max-width: 552px;
+    flex:1 1 30.75888%; //544/1819
     font-family: "Arimo", sans-serif;
     font-size: 1.3rem;
 
@@ -44,7 +44,7 @@ li {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      //width: 43.5%;
+      flex:0 0 50.55%;
       text-decoration: none;
       ul {
         list-style: none;
@@ -122,16 +122,19 @@ li {
     }
   }
   #timeline-container {
-    flex: 0 0 600px;
+    flex: 0 0 598px;
     //overflow-y: unset;
     border-left:1px solid rgba(220, 220, 220, 0.3);
     border-right: 1px solid rgba(220, 220, 220, 0.3);
-   //margin-right: 40px;
+    margin-right: 30px;
 
     #timeline-div {
+      //margin-right: 40px;
+
       height: 100vh;
-      border-left: 1px solid rgba(220, 220, 220, 0.3);
-      border-right: 1px solid rgba(220, 220, 220, 0.3);
+      width: 598px;
+      min-width: 598px;
+      max-width: 598px;
       //overflow-y: hidden;
       #mid-header {
         display: flex;
@@ -207,8 +210,8 @@ li {
   #explore-div{
     display: flex;
     flex-direction:column;
-    flex:1 0 0;
-    padding-left: 2%;
+    flex:0 1 100%;
+    //padding-left: 2%;
     background-color: green;
     input {
       background-color: rgba(239, 243, 244, 255);
@@ -274,8 +277,8 @@ li {
     //min-width: 100%;;
     margin-right: 0;
     //padding-left: 2rem;
-    //border: 0.05rem solid rgba(220, 220, 220, 0.3);
-    flex: 1 1 0;
+
+    flex: 1 1 69.24%;
 
 
     #rec-follows-section {
