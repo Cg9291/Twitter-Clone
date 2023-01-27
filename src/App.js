@@ -15,16 +15,18 @@ function App() {
   return (
     <div id="App">
       <section id="left-container">
-        <Navigation/>
-        <Profile/>
-      </section>
-      <section id="middle-container">
-        <Timeline/>
+        <Navigation />
+        <Profile />
       </section>
       <section id="right-container">
-        <SearchBar/>
-        <TrendingSection/>
-        <FollowsRecSection/>
+        <div id='timeline-container'>
+          <Timeline />
+        </div>
+        <div id='explore-div'>
+          <SearchBar />
+          <TrendingSection />
+          <FollowsRecSection />
+        </div>
       </section>
     </div>
   );
